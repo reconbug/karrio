@@ -4,13 +4,13 @@ django-debug-toolbar
 # -e ./schemas/dpdhl
 
 # Carrier Extentions in Development
-# -e ./sdk/core
+-e ./sdk/core
 # -e ./sdk/extensions/generic
 # -e ./sdk/extensions/amazon_mws
 # -e ./sdk/extensions/aramex
 # -e ./sdk/extensions/australiapost
 # -e ./sdk/extensions/boxknight
-# -e ./sdk/extensions/canadapost
+-e ./sdk/extensions/canadapost
 # -e ./sdk/extensions/canpar
 # -e ./sdk/extensions/chronopost
 # -e ./sdk/extensions/dhl_express
@@ -41,13 +41,13 @@ django-debug-toolbar
 # -e ./sdk/vendors/freightcom
 
 
-karrio
+# karrio
 karrio.generic
 karrio.amazon-mws
 karrio.aramex
 karrio.australiapost
 karrio.boxknight
-karrio.canadapost
+# karrio.canadapost
 karrio.canpar
 karrio.chronopost
 karrio.dhl-express
